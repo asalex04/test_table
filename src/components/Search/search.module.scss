@@ -1,0 +1,29 @@
+.form {
+    width: 600px;
+    margin-bottom: 16px;
+}
+
+.customInput {
+    position: relative;
+
+&:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto 0;
+    width: 21px;
+    height: 21px;
+    background: url('../../assets/img/search.png') no-repeat;
+    background-size: cover;
+}
+
+input {
+    width: 100%;
+    height: 52px;
+    background-color: #5A5C66;
+    padding: 26px;
+}
+
+}

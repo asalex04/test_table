@@ -1,0 +1,24 @@
+.wraper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  li {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+}
+
+.currentPage {
+  font-weight: bold;
+  color: green;
+}
+
